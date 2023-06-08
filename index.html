@@ -22,8 +22,8 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4 nav-bar">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Acerca de</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Inicio</a></li>
+                        <!--<li class="nav-item"><a class="nav-link" href="#!">Acerca de</a></li>-->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Más Opciones</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -45,19 +45,23 @@
             </div>
         </nav>
         <!-- Header-->
-        <header class="bg-dark py-5">
+        <header class="bg-dark py-5" id="home">
             <div class="container px-4 px-lg-5 my-5">
                 <div class="text-center text-white">
                     <h1 class="display-4 fw-bolder">Creaciones Gael</h1>
                     <p class="lead fw-normal text-white-50 mb-0">Manualidades en fomix</p>
+                    <p class="mt-5">
+                        Somos un bazar que elabora manualidades en fomix para tareas escolares, fiestas de cumpleaños o decoraciones bajo pedido, además de vender productos ya elaborados con anterioridad como decoraciones pequeñas variadas.
+                        Estamos ubicados en La Liberdad, barrio General Enríquez Gallo, Av. 16, calle 36
+                    </p>
                 </div>
             </div>
         </header>
         <!-- Section-->
         <section class="py-5 own-background">
-            <h2 id='catalogue'class="text-center ">Catálogo</h2>
+            <h2 id='catalogue'class="text-center fw-bold">Catálogo</h2>
             <div class="container px-4 px-lg-5 mt-5">
-                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div class="row gx-4 gx-lg-5 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
@@ -66,14 +70,14 @@
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Producto 1</h5>
+                                    <h5 class="fw-bolder">Figuras niños skaters</h5>
                                     <!-- Product price-->
-                                    $15.00
+                                    $8.00
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-comprar" href="#">Comprar</a></div>
                             </div>
                         </div>
                     </div>
@@ -87,7 +91,7 @@
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Producto 2</h5>
+                                    <h5 class="fw-bolder">Figura niña leyendo</h5>
                                     <!-- Product reviews-->
                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
@@ -97,13 +101,13 @@
                                         <div class="bi-star-fill"></div>
                                     </div>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$20.00</span>
-                                    $18.00
+                                    <span class="text-muted text-decoration-line-through">$10.00</span>
+                                    $5.00
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-comprar" href="#">Comprar</a></div>
                             </div>
                         </div>
                     </div>
@@ -115,15 +119,15 @@
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Producto 3</h5>
+                                    <h5 class="fw-bolder">Figura niña estudiosa</h5>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$50.00</span>
-                                    $25.00
+                                    <span class="text-muted text-decoration-line-through">$15.00</span>
+                                    $10.00
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-comprar" href="#">Comprar</a></div>
                             </div>
                         </div>
                     </div>
@@ -135,7 +139,7 @@
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Producto 4</h5>
+                                    <h5 class="fw-bolder">Figuras niño estudioso</h5>
                                     <!-- Product reviews-->
                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
@@ -145,12 +149,12 @@
                                         <div class="bi-star-fill"></div>
                                     </div>
                                     <!-- Product price-->
-                                    $40.00
+                                    $10.00
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-comprar" href="#">Comprar</a></div>
                             </div>
                         </div>
                     </div>
@@ -164,15 +168,15 @@
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Producto 5</h5>
+                                    <h5 class="fw-bolder">Niño estudioso</h5>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$50.00</span>
-                                    $25.00
+                                    <span class="text-muted text-decoration-line-through">$7.00</span>
+                                    $5.00
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-comprar" href="#">Comprar</a></div>
                             </div>
                         </div>
                     </div>
@@ -184,14 +188,14 @@
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Producto 6</h5>
+                                    <h5 class="fw-bolder">Niña estudiosa</h5>
                                     <!-- Product price-->
-                                    $120.00 - $280.00
+                                    $5.00
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-comprar" href="#">Comprar</a></div>
                             </div>
                         </div>
                     </div>
@@ -205,7 +209,7 @@
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Producto 7</h5>
+                                    <h5 class="fw-bolder">Niñas abecedario</h5>
                                     <!-- Product reviews-->
                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
@@ -215,13 +219,13 @@
                                         <div class="bi-star-fill"></div>
                                     </div>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$20.00</span>
-                                    $18.00
+                                    <span class="text-muted text-decoration-line-through">$15.00</span>
+                                    $12.00
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-comprar" href="#">Comprar</a></div>
                             </div>
                         </div>
                     </div>
@@ -233,7 +237,7 @@
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Producto 8</h5>
+                                    <h5 class="fw-bolder">Niños abecedario</h5>
                                     <!-- Product reviews-->
                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
@@ -243,12 +247,12 @@
                                         <div class="bi-star-fill"></div>
                                     </div>
                                     <!-- Product price-->
-                                    $40.00
+                                    $12.00
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Comprar</a></div>
+                            <div class="card-footer pb-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto btn-comprar " href="#">Comprar</a></div>
                             </div>
                         </div>
                     </div>
@@ -256,7 +260,20 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
+        <footer class="py-3 bg-dark">
+            <div class="store-info">
+                <div class="store-name ">Bazar <span>Creaciones Gael</span></div>
+                <div class="contact text-center">
+                    <h6>Contáctanos</h6>
+                    <a href="" class="bi bi-facebook fs-4"></a>
+                    <a href="" class="bi bi-whatsapp fs-4"></a>
+                </div>
+
+                <a href="#home" class="up-button"><button class="up-button">
+                    &UpArrow;
+                </button></a>
+            </div>
+            
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
         </footer>
         <!-- Bootstrap core JS-->

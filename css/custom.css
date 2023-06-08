@@ -10,5 +10,38 @@
 
 
 .own-background{
-    background-color: #FFC700;
+    /*background-color: #FFC700;*/
+}
+
+.store-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.store-name{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.contact{
+    color: white;
+}
+
+.contact>a{
+    text-decoration: none;
+    color: white;
+}
+
+.up-button{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.btn-comprar{
+    width: 100%;
 }
