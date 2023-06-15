@@ -45,3 +45,9 @@
 .btn-comprar{
     width: 100%;
 }
+
+.store-image{
+    max-width: 40%;
+    aspect-ratio: 1/.5;
+    object-fit: cover;
+}
